@@ -76,5 +76,14 @@ int main(){
     float f7 = (float) stoi(str7) ;
     double d7 = (double) stoi(str7) ;
 
+    // Converting string having decimal
+    string str8 = "65.5" ;
+    char c8 = (char) stof(str8) ;
+    short s8 = (short) stof(str8) ;
+    int i8 = (int) stof(str8) ;
+    long l8 = (long) stof(str8) ;
+    float f8 = (float) stof(str8) ;
+    double d8 = (double) stof(str8) ;
+    
     return 0;
 }
